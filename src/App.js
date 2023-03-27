@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css';
-import Quiz from './Quiz/Quiz';
+import Ticket from './Ticket/Ticket';
 
 
 
@@ -12,8 +12,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <
-        Quiz />
+      <Ticket />
     )
   }
 }

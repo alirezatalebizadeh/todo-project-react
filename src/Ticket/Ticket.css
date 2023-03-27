@@ -1,0 +1,79 @@
+body {
+  background-image: url("sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fnameInput,
+.lnameInput,
+.phoneInput,
+.emailInput,
+.countrySelect,
+.citySelect {
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  border: 0px;
+  padding: 0px 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  color: rgb(29, 28, 28);
+}
+
+select option {
+  direction: rtl;
+}
+
+.btn {
+  border-radius: 5px;
+  border: 0px;
+  padding: 8px 0px;
+  background-color: rgb(255, 217, 0);
+  margin-top: 40px;
+  width: 90%;
+  transition: .3s all;
+  font-size: 1.1rem;
+  color: rgb(12, 12, 12);
+}
+
+.btn:hover {
+  background-color: rgb(104, 15, 206);
+  color: aliceblue;
+}
+
+.box {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  margin-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.container div {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column !important;
+    margin-top: 0 !important;
+  }
+
+}
+
+::placeholder {
+  font-size: 1.1rem;
+  color: rgb(20, 20, 20);
+}
