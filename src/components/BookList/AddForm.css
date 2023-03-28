@@ -1,0 +1,64 @@
+#book-form {
+    padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.lable {
+    font-size: 1rem;
+
+}
+
+.form-group input {
+    width: 85%;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1.5px solid rgba(255, 94, 1, 1);
+}
+
+input:focus {
+    border-color: blueviolet;
+}
+
+.btn {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 94, 1);
+    padding: 5px;
+    transition: .2s all;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/*================= style of table=============== */
+.table {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+}
+tr:hover{
+    background-color: rgb(206, 199, 199);
+}
+
+::selection {
+    background-color: blueviolet;
+    color: aliceblue;
+}

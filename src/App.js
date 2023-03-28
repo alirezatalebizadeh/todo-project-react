@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './App.css';
-import Ticket from './Ticket/Ticket';
+import BookList from './components/BookList/AddForm';
+import Header from './components/Header/Header';
 
 
 
@@ -12,7 +12,10 @@ export default class App extends Component {
 
   render() {
     return (
-      <Ticket />
+      <div className='container mt-4'>
+        <Header />
+        <BookList />
+      </div>
     )
   }
 }
