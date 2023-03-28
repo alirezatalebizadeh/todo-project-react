@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import BookList from './components/BookList/AddForm';
-import Header from './components/Header/Header';
+import Shop from './components/Shop/Shop'
+import './App.css'
 
 
 
@@ -8,13 +8,10 @@ import Header from './components/Header/Header';
 
 export default class App extends Component {
 
-
-
   render() {
     return (
-      <div className='container mt-4'>
-        <Header />
-        <BookList />
+      <div>
+        <Shop />
       </div>
     )
   }
